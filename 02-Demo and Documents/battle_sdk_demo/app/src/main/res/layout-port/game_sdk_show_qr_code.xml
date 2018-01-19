@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_sdk_dialog_shape_bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="@dimen/game_sdk_dialog_width"
+        android:layout_height="250dp"
+        android:background="@drawable/game_sdk_qr_coe_bg_top">
+
+        <ImageView
+            android:id="@+id/iv_qr_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_qr_code"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/game_sdk_win_please_scan_qrcode"
+            android:textColor="#8C99AD"
+            android:textSize="11.3sp" />
+
+        <ImageView
+            android:id="@+id/iv_dismiss"
+            style="@style/game_sdk_dialog_title_dismiss"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/game_sdk_show_qr_code_close_click" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/game_sdk_dialog_width"
+        android:layout_height="200dp"
+        android:background="@drawable/game_sdk_qr_coe_bg_bottom">
+
+        <ListView
+            android:id="@+id/lv_join_room_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </FrameLayout>
+
+</LinearLayout>

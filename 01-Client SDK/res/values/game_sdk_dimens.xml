@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_sdk_weight_height">43.3dp</dimen>
+    <dimen name="game_sdk_weight_padding">20dp</dimen>
+
+    <dimen name="game_sdk_select_game_way_text_icon_padding">13.3dp</dimen>
+    <dimen name="game_sdk_dialog_width">306.6dp</dimen>
+    <dimen name="game_sdk_dialog_common_text_size">15.3sp</dimen>
+    <dimen name="game_sdk_dialog_edit_text_text_padding">15dp</dimen>
+</resources>

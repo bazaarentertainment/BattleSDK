@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="game_sdk_translate">#ffffffff</color>
+    <color name="game_sdk_wt">#ffffff</color>
+    <color name="game_sdk_black">#000000</color>
+    <color name="game_sdk_tv">#a35d0b</color>
+    <color name="game_sdk_bg_pay_img">#949494</color>
+
+    <color name="game_sdk_login_btn_login_text_color">#ffffff</color>
+    <color name="game_sdk_select_game_way_btn_create_room_text_color">#ffffff</color>
+    <color name="game_sdk_select_game_way_btn_join_room_text_color">#ffffff</color>
+    <color name="game_sdk_select_game_way_btn_exit_game_text_color">#ffffff</color>
+    <color name="game_sdk_pay_need_pay_text_text_color">#ffffff</color>
+    <color name="game_sdk_pay_money_text_color">#ffffff</color>
+    <color name="game_sdk_pay_btn_pay_text_color">#ffffff</color>
+    <color name="game_sdk_show_qr_code_text_color">#ffffff</color>
+    <color name="game_sdk_show_game_result_score_text_color">#ffffff</color>
+    <color name="game_sdk_show_game_result_notice_text_color">#ffffff</color>
+    <color name="game_sdk_show_final_game_result_title_text_color">#ffffff</color>
+    <color name="game_sdk_show_final_game_result_winner_text_color">#DCB51B</color>
+    <color name="game_sdk_show_final_game_result_failure_text_color">#FA545C</color>
+    <color name="game_sdk_show_final_game_result_money_text_color">#ffffff</color>
+
+</resources>

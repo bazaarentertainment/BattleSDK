@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_sdk_win_login_loginacc">"Login with account</string>
+    <string name="game_sdk_win_login_account">Account/Telephone number</string>
+    <string name="game_sdk_win_login_pass">Password</string>
+    <string name="game_sdk_win_login_login">Login</string>
+    <string name="game_sdk_win_login_fail">Wrong account or password</string>
+    <string name="game_sdk_win_login_back">Welcome back,\r\n</string>
+    <string name="game_sdk_win_create_room">Create Room</string>
+    <string name="game_sdk_win_join_room">Join Room</string>
+    <string name="game_sdk_win_quite_game">Quite Game</string>
+    <string name="game_sdk_win_need_pay">Need Pay：</string>
+    <string name="game_sdk_win_pay">Confirm payment</string>
+    <string name="game_sdk_win_create_room_error">Create Room Failed</string>
+    <string name="game_sdk_win_join_room_success">Join Room Succeed</string>
+    <string name="game_sdk_win_join_room_error">Join Room Failed</string>
+    <string name="game_sdk_win_scan_qr_code_error">Scan QR code Failed</string>
+    <string name="game_sdk_win_submit_result_notice">Your result has been submitted, please wait for other user\'s game over</string>
+    <string name="game_sdk_win_please_login">Please login in first</string>
+    <string name="game_sdk_win_room_info_create_room">%s created the room"</string>
+    <string name="game_sdk_win_room_info_join_room">%s joined the room</string>
+    <string name="game_sdk_permission_camera">Please give the permission of accessing the camera!</string>
+    <string name="game_sdk_err_server_return_data">The server returns an error</string>
+    <string name="game_sdk_err_net_time_out">Network connection timed out</string>
+    <string name="game_sdk_data_loading">Loading...</string>
+    <string name="game_sdk_err_scan_game_id"> The game you joined is different from the game form QR Code, please scan right QR Code</string>
+    <string name="game_sdk_win_order_info">Order Information</string>
+    <string name="game_sdk_win_pay_money_value">Payment amount</string>
+    <string name="game_sdk_win_please_scan_qrcode">Please scan the QR Code \nabove to join room</string>
+    <string name="game_sdk_win_score_">Score:</string>
+    <string name="game_sdk_win_lose_money">Lost %s \nBazaar Gold</string>
+    <string name="game_sdk_win_win_money">Won %s \nBazaar Gold</string>
+    <string name="game_sdk_win_winner">WINNER</string>
+    <string name="game_sdk_win_loser">LOSER</string>
+    <string name="game_sdk_win_is_exit_game">Quit game?</string>
+    <string name="game_sdk_win_ok">Yes</string>
+    <string name="game_sdk_win_cancel">Cancel</string>
+    <string name="game_sdk_win_dialog_other_game_way">Demo mode</string>
+    <string name="game_sdk_win_loding">Loading...</string>
+    <string name="game_sdk_win_account_closelogin">Sorry, please install the latest version or contact customer service to login</string>
+    <string name="game_sdk_win_account_loginerrorinfo">Account and password cannot be null</string>
+</resources>

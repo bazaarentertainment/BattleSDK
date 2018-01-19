@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ll_show_content"
+            android:layout_width="540dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/game_sdk_background"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <ListView
+                android:id="@+id/lv_join_room_user"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:scrollbars="none" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_dismiss"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignEnd="@+id/ll_show_content"
+            android:layout_alignRight="@+id/ll_show_content"
+            android:layout_alignTop="@+id/ll_show_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="-11dp"
+            android:layout_marginTop="-11dp"
+            android:src="@drawable/game_sdk_close_click" />
+    </RelativeLayout>
+
+</FrameLayout>

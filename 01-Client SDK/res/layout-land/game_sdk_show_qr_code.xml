@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_sdk_dialog_shape_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:background="@drawable/game_sdk_qr_coe_bg_left"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_qr_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/game_sdk_win_please_scan_qrcode"
+            android:textColor="#8C99AD"
+            android:textSize="11.3sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:background="@drawable/game_sdk_qr_coe_bg_right"
+        android:paddingBottom="@dimen/game_sdk_weight_padding">
+
+        <ListView
+            android:id="@+id/lv_join_room_user"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <ImageView
+            android:id="@+id/iv_dismiss"
+            style="@style/game_sdk_dialog_title_dismiss"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/game_sdk_show_qr_code_close_click" />
+    </RelativeLayout>
+
+</LinearLayout>

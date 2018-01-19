@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_sdk_win_login_loginacc">账号登录</string>
+    <string name="game_sdk_win_login_account">账号/手机号</string>
+    <string name="game_sdk_win_login_pass">密码</string>
+    <string name="game_sdk_win_login_login">登录</string>
+    <string name="game_sdk_win_login_fail">账号或密码有误</string>
+    <string name="game_sdk_win_login_back">欢迎回来,\r\n</string>
+    <string name="game_sdk_win_create_room">创建房间</string>
+    <string name="game_sdk_win_join_room">加入房间</string>
+    <string name="game_sdk_win_quite_game">退出游戏</string>
+    <string name="game_sdk_win_need_pay">需要支付：</string>
+    <string name="game_sdk_win_pay">确认支付</string>
+    <string name="game_sdk_win_create_room_error">创建房间失败</string>
+    <string name="game_sdk_win_join_room_success">加入房间成功</string>
+    <string name="game_sdk_win_join_room_error">加入房间失败</string>
+    <string name="game_sdk_win_scan_qr_code_error">扫描二维码失败</string>
+    <string name="game_sdk_win_submit_result_notice">游戏结果已经提交，请耐心等待其它玩家游戏结束</string>
+    <string name="game_sdk_win_please_login">请先登录</string>
+    <string name="game_sdk_win_room_info_create_room">%s 创建了房间</string>
+    <string name="game_sdk_win_room_info_join_room">%s 加入了房间</string>
+    <string name="game_sdk_permission_camera">请打开此应用的摄像头权限！</string>
+    <string name="game_sdk_err_server_return_data">服务器返回数据异常</string>
+    <string name="game_sdk_err_net_time_out">网络连接超时</string>
+    <string name="game_sdk_err_scan_game_id"> 加入的游戏与二维码扫描的游戏不一致，请扫描正确的游戏二维码</string>
+    <string name="game_sdk_win_order_info">订单信息</string>
+    <string name="game_sdk_win_pay_money_value">支付金额</string>
+    <string name="game_sdk_win_please_scan_qrcode">请扫描上方二维码加入房间</string>
+    <string name="game_sdk_win_score_">Score:</string>
+    <string name="game_sdk_win_lose_money">Lost %s \nBazaar Gold</string>
+    <string name="game_sdk_win_win_money">Won %s \nBazaar Gold</string>
+    <string name="game_sdk_win_winner">WINNER</string>
+    <string name="game_sdk_win_loser">LOSER</string>
+    <string name="game_sdk_win_is_exit_game">是否退出游戏</string>
+    <string name="game_sdk_win_ok">确定</string>
+    <string name="game_sdk_win_cancel">取消</string>
+    <string name="game_sdk_win_loding">加载中...</string>
+    <string name="game_sdk_win_dialog_other_game_way">试玩</string>
+    <string name="game_sdk_win_account_closelogin">抱歉,您当前版本不支持登录，请安装最新版或联系客服</string>
+    <string name="game_sdk_win_account_loginerrorinfo">账号密码不能为空</string>
+</resources>

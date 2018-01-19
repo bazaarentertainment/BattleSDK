@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/game_sdk_dialog_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/game_sdk_dialog_shape_bg"
+    android:paddingBottom="52dp">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        style="@style/game_sdk_dialog_title_back"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_dismiss"
+        style="@style/game_sdk_dialog_title_dismiss"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/game_sdk_dialog_tile_text" />
+
+    <LinearLayout
+        android:id="@+id/ll_create_room"
+        style="@style/game_sdk_dialog_select_game_way_button"
+        android:layout_marginTop="54.7dp"
+        android:background="@drawable/game_sdk_shape_bg_create_room">
+
+        <ImageView
+            style="@style/game_sdk_icon_style"
+            android:src="@drawable/game_sdk_icon_create_room" />
+
+        <TextView
+            style="@style/game_sdk_common_button_text"
+            android:layout_marginLeft="@dimen/game_sdk_select_game_way_text_icon_padding"
+            android:text="@string/game_sdk_win_create_room" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_join_room"
+        style="@style/game_sdk_dialog_select_game_way_button"
+        android:layout_below="@+id/ll_create_room"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/game_sdk_shape_bg_join_room">
+
+        <ImageView
+            style="@style/game_sdk_icon_style"
+            android:src="@drawable/game_sdk_icon_join_room" />
+
+        <TextView
+            style="@style/game_sdk_common_button_text"
+            android:layout_marginLeft="@dimen/game_sdk_select_game_way_text_icon_padding"
+            android:text="@string/game_sdk_win_join_room" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_other_game_way"
+        style="@style/game_sdk_dialog_select_game_way_button"
+        android:layout_below="@+id/ll_join_room"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/game_sdk_shape_bg_common_btn"
+        android:visibility="visible">
+
+        <ImageView
+            style="@style/game_sdk_icon_style"
+            android:src="@drawable/game_sdk_dialog_single_mode" />
+
+        <TextView
+            style="@style/game_sdk_common_button_text"
+            android:layout_marginLeft="@dimen/game_sdk_select_game_way_text_icon_padding"
+            android:text="@string/game_sdk_win_dialog_other_game_way" />
+    </LinearLayout>
+</RelativeLayout>

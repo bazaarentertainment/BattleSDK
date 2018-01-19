@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yyjia.sdk.battle.demo.GameNoInterfaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/btn_select_game_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Game Way" />
+
+        <Button
+            android:id="@+id/btn_create_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Room" />
+
+        <Button
+            android:id="@+id/btn_join_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Room" />
+
+        <Button
+            android:id="@+id/btn_submit_game_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Game Result" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_exit_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit Game" />
+
+        <Button
+            android:id="@+id/btn_exit_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit App" />
+    </LinearLayout>
+</LinearLayout>

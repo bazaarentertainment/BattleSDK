@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_sdk_win_login_loginacc">Login</string>
+    <string name="game_sdk_win_login_account">Account / Nomor ponsel</string>
+    <string name="game_sdk_win_login_pass">Password</string>
+    <string name="game_sdk_win_login_login">Login</string>
+    <string name="game_sdk_win_login_fail">Terdapat kesalahan pada acoount atau nomer ponsel</string>
+    <string name="game_sdk_win_login_back">Selamat datang kembali,,\r\n</string>
+    <string name="game_sdk_win_create_room">Buat ruangan</string>
+    <string name="game_sdk_win_join_room">Masuk ruangan</string>
+    <string name="game_sdk_win_quite_game">Akhiri game</string>
+    <string name="game_sdk_win_need_pay">Pembayaran diperlukan:</string>
+    <string name="game_sdk_win_pay">Konfirmasi pembayaran</string>
+    <string name="game_sdk_win_create_room_error">Pembuatan ruangan gagal</string>
+    <string name="game_sdk_win_join_room_success">Masuk ruangan berhasil</string>
+    <string name="game_sdk_win_join_room_error">Masuk ruangan gagal</string>
+    <string name="game_sdk_win_scan_qr_code_error">Pemindaian QR Code gagal</string>
+    <string name="game_sdk_win_submit_result_notice">Skor telah dikirimkan. Mohon tunggu sampai pemain lain selesai bermain</string>
+    <string name="game_sdk_win_please_login">Silahkan login dulu</string>
+    <string name="game_sdk_win_room_info_create_room">%s menciptakan ruangan</string>
+    <string name="game_sdk_win_room_info_join_room">%s bergabung dengan ruangan</string>
+    <string name="game_sdk_permission_camera">Mohon berikan ijin akses terhadap kamera!</string>
+    <string name="game_sdk_err_server_return_data">Server mengembalikan pengecualian data</string>
+    <string name="game_sdk_err_net_time_out">Sambungan jaringan habis</string>
+    <string name="game_sdk_data_loading">Sedang memuat...</string>
+    <string name="game_sdk_err_scan_game_id"> Game yang ditambahkan tidak sesuai dengan kode QR game yang ditampilkan. Silakan pindai kode QR game yang tepat.</string>
+    <string name="game_sdk_win_order_info">Informasi pemesanan</string>
+    <string name="game_sdk_win_pay_money_value">Jumlah pembayaran</string>
+    <string name="game_sdk_win_please_scan_qrcode">Mohon pindai kode QR di atas \nuntuk bergabung ke ruangan</string>
+    <string name="game_sdk_win_score_">Skor:</string>
+    <string name="game_sdk_win_lose_money">Kehilangan %s \nBazaar Gold</string>
+    <string name="game_sdk_win_win_money">Mendapatkan %s \nBazaar Gold</string>
+    <string name="game_sdk_win_winner">PEMENANG</string>
+    <string name="game_sdk_win_loser">PECUNDANG</string>
+    <string name="game_sdk_win_is_exit_game">Keluar dari game?</string>
+    <string name="game_sdk_win_ok">Oke</string>
+    <string name="game_sdk_win_cancel">Batal</string>
+    <string name="game_sdk_win_dialog_other_game_way">mode demo</string>
+    <string name="game_sdk_win_loding">Sedang memuat..</string>
+    <string name="game_sdk_win_account_closelogin">Maaf, Anda tidak bisa login dengan versi saat ini, mohon instal versi terbaru atau hubungi kami untuk login</string>
+    <string name="game_sdk_win_account_loginerrorinfo">Masukkan account dan password</string>
+</resources>

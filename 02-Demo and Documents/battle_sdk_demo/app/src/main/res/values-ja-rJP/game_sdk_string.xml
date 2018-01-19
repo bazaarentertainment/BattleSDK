@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_sdk_win_login_loginacc">ログイン</string>
+    <string name="game_sdk_win_login_account">アカウント/電話番号</string>
+    <string name="game_sdk_win_login_pass">パスワード</string>
+    <string name="game_sdk_win_login_login">ログイン</string>
+    <string name="game_sdk_win_login_fail">アカウント又はパスワードの入力に誤りがあります</string>
+    <string name="game_sdk_win_login_back">おかえりなさい,\r\n</string>
+    <string name="game_sdk_win_create_room">部屋を作成</string>
+    <string name="game_sdk_win_join_room">入室</string>
+    <string name="game_sdk_win_quite_game">ゲームを終了</string>
+    <string name="game_sdk_win_need_pay">支払いが必要です：</string>
+    <string name="game_sdk_win_pay">支払い確認</string>
+    <string name="game_sdk_win_create_room_error">部屋の作成失敗</string>
+    <string name="game_sdk_win_join_room_success">入室成功</string>
+    <string name="game_sdk_win_join_room_error">入室失敗</string>
+    <string name="game_sdk_win_scan_qr_code_error">QRコードのスキャン失敗</string>
+    <string name="game_sdk_win_submit_result_notice">スコアを提出しました、他のプレイヤーがゲームを終わるまで待ってください</string>
+    <string name="game_sdk_win_please_login">ログインしてください</string>
+    <string name="game_sdk_win_room_info_create_room">%s ROOMを作成</string>
+    <string name="game_sdk_win_room_info_join_room">%s ROOMに入室</string>
+    <string name="game_sdk_permission_camera">カメラへのアクセスを許可してください！</string>
+    <string name="game_sdk_err_server_return_data">サーバーエラーです</string>
+    <string name="game_sdk_err_net_time_out">ネットワークに接続されていません</string>
+    <string name="game_sdk_data_loading">読み込み中...</string>
+    <string name="game_sdk_err_scan_game_id">加入したゲームはqrコードで表示されたゲームと一致しません、正しいqrコードをスキャンしてください</string>
+    <string name="game_sdk_win_order_info">オーダー詳細</string>
+    <string name="game_sdk_win_pay_money_value">支払い金額</string>
+    <string name="game_sdk_win_please_scan_qrcode">上にあるqrコードをスキャン\nしてルームに加入してください</string>
+    <string name="game_sdk_win_score_">Score:</string>
+    <string name="game_sdk_win_lose_money">Lost %s \nBazaar Gold</string>
+    <string name="game_sdk_win_win_money">Won %s \nBazaar Gold</string>
+    <string name="game_sdk_win_winner">WINNER</string>
+    <string name="game_sdk_win_loser">LOSER</string>
+    <string name="game_sdk_win_is_exit_game">ゲームを終了しますか？</string>
+    <string name="game_sdk_win_ok">はい</string>
+    <string name="game_sdk_win_cancel">キャンセル</string>
+    <string name="game_sdk_win_dialog_other_game_way">お試しプレイ</string>
+    <string name="game_sdk_win_loding">読み込み中...</string>
+    <string name="game_sdk_win_account_closelogin">
+        申し訳ありません、今のバージョンではログインできません。最新版に更新するか、またはお問い合わせへ
+    </string>
+    <string name="game_sdk_win_account_loginerrorinfo">アカウントとパスワードを入力</string>
+</resources>
